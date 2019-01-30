@@ -8,6 +8,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   Student.associate = function(models) {
     // associations can be defined here
+    models.belongsTo('Regions')
   };
   return Student;
 };

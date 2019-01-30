@@ -8,5 +8,7 @@ routes.use('/register',register)
 routes.use('/login',login)
 routes.use('/edit',edit)
 routes.use('/*',(req,res)=>{
-    res.render('404')
+res.render('404')
 })
+
+module.exports = routes

@@ -4,7 +4,7 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert('Regions',[{
       Place:'Jakarta Selatan'},{
-    Pleace:'Jakarta Barat'
+    Place:'Jakarta Barat'
   },{
     Place:'Jakarta Pusat'
   },{

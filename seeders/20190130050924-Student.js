@@ -5,21 +5,21 @@ module.exports = {
     return queryInterface.bulkInsert('Students',[{
       Nama: 'kami',
       Alamat: 'kebayoran',
-      Telpon: 081234567,
+      Telpon: 81234567,
       Email: 'a@blur.c',
       createdAt: new Date(),
       updatedAt: new Date()
     },{
     Nama: 'kami',
     Alamat: 'kebayoran',
-    Telpon: 081234567,
+    Telpon: 81234567,
     Email: 'a@blur.c',
     createdAt: new Date(),
     updatedAt: new Date()
   },{
     Nama: 'kami',
     Alamat: 'kebayoran',
-    Telpon: 081234567,
+    Telpon: 81234567,
     Email: 'a@blur.c',
     createdAt: new Date(),
     updatedAt: new Date()

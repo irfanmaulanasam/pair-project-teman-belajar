@@ -5,7 +5,7 @@ module.exports = {
     return queryInterface.bulkInsert('Teachers',[{
       Nama:'aku',
     Alamat:'pasarraya',
-    Telpon: 0812345678,
+    Telpon: 812345678,
     Email: 'a@b.c',
     Subjcet: 'matematika',
     profesi: 'mahasiswa',

@@ -3,36 +3,394 @@
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert('Teachers',[{
-      Nama:'aku',
-    Alamat:'pasarraya',
-    Telpon: 812345678,
-    Email: 'a@b.c',
-    Subjcet: 'matematika',
-    profesi: 'mahasiswa',
-    jadwal: null,
-    wilayah: null,
-    createdAt: new Date(),
-    updatedAt: new Date()
-  }],{})
-    /*
-      Add altering commands here.
-      Return a promise to correctly handle asynchronicity.
-
-      Example:
-      return queryInterface.bulkInsert('People', [{
-        name: 'John Doe',
-        isBetaMember: false
-      }], {});
-    */
+      Nama:'Bima',
+      Alamat:'Bern',
+      Telpon: 08127483063,
+      Email: 'bimaa@b.c',
+      Subjcet: 'fisika',
+      profesi: 'fullstack developer',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Irfan',
+      Alamat:'Jakarta',
+      Telpon: 08122539586,
+      Email: 'irfana@b.c',
+      Subjcet: 'matematika',
+      profesi: 'ceo',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Ernest',
+      Alamat:'Pasar Umbul',
+      Telpon: 08128830265,
+      Email: 'ernesta@b.c',
+      Subjcet: 'bahasa inggris',
+      profesi: 'owner petshop',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Latif',
+      Alamat:'Jayakarta',
+      Telpon: 081229374409,
+      Email: 'latifa@b.c',
+      Subjcet: 'bahasa inggris',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Wajan',
+      Alamat:'Samijan',
+      Telpon: 081245422394,
+      Email: 'wajana@b.c',
+      Subjcet: 'matematika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Isro',
+      Alamat:'Fatmawati',
+      Telpon: 081276353222,
+      Email: 'isroa@b.c',
+      Subjcet: 'fisika',
+      profesi: 'professor',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Juki',
+      Alamat:'Pekaboran',
+      Telpon: 0812888985432,
+      Email: 'jukia@b.c',
+      Subjcet: 'matematika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Luthfi',
+      Alamat:'Mantul',
+      Telpon: 08129876424687,
+      Email: 'luthfia@b.c',
+      Subjcet: 'bahasa inggris',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Marwan',
+      Alamat:'Menteng',
+      Telpon: 081208642432,
+      Email: 'marwana@b.c',
+      Subjcet: 'matematika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Celyn',
+      Alamat:'Senayan',
+      Telpon: 08122679654569,
+      Email: 'celyna@b.c',
+      Subjcet: 'fisika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Kurma',
+      Alamat:'Senuyun',
+      Telpon: 081209742546,
+      Email: 'kurmaa@b.c',
+      Subjcet: 'bahasa inggris',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Ekka',
+      Alamat:'PIK',
+      Telpon: 081212345678,
+      Email: 'ekkaa@b.c',
+      Subjcet: 'matematika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Sapardi',
+      Alamat:'TMII',
+      Telpon: 0812098765,
+      Email: 'sapardia@b.c',
+      Subjcet: 'fisika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Kulpa',
+      Alamat:'Kebon Kelapa',
+      Telpon: 0812567876543,
+      Email: 'kulpaa@b.c',
+      Subjcet: 'matematika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Mardi',
+      Alamat:'Monas',
+      Telpon: 081212347890,
+      Email: 'mardia@b.c',
+      Subjcet: 'bahasa inggris',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'There',
+      Alamat:'Pasar Senen',
+      Telpon: 081289056723,
+      Email: 'therea@b.c',
+      Subjcet: 'matematika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Sulfat',
+      Alamat:'Pramuka',
+      Telpon: 08120956321,
+      Email: 'sulfata@b.c',
+      Subjcet: 'fisika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Adip',
+      Alamat:'Solo',
+      Telpon: 081289687676543,
+      Email: 'adipa@b.c',
+      Subjcet: 'bahasa inggris',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Kisbal',
+      Alamat:'Seulawah',
+      Telpon: 081298765875342,
+      Email: 'kisbala@b.c',
+      Subjcet: 'fisika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Roose',
+      Alamat:'Bern',
+      Telpon: 08129065219,
+      Email: 'roosea@b.c',
+      Subjcet: 'bahasa inggris',
+      profesi: 'designer',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Rabi',
+      Alamat:'Maju',
+      Telpon: 081246354689,
+      Email: 'rabia@b.c',
+      Subjcet: 'matematika',
+      profesi: 'programmer',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Puntadewa',
+      Alamat:'Mungkin Bisa',
+      Telpon: 0812431978,
+      Email: 'puntadewaa@b.c',
+      Subjcet: 'fisika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Pokopang',
+      Alamat:'Laine',
+      Telpon: 08122985333,
+      Email: 'pokopanga@b.c',
+      Subjcet: 'bahasa inggris',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Zetgeist',
+      Alamat:'Bojongsoang',
+      Telpon: 081288090986,
+      Email: 'zetgeista@b.c',
+      Subjcet: 'matematika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Kurniawan',
+      Alamat:'Abdulserin',
+      Telpon: 081209298822,
+      Email: 'kurniawana@b.c',
+      Subjcet: 'bahasa inggris',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Parmak',
+      Alamat:'Kenayan',
+      Telpon: 081202020202,
+      Email: 'parmaka@b.c',
+      Subjcet: 'fisika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Sipdeh',
+      Alamat:'Lanjot',
+      Telpon: 0812627272222,
+      Email: 'sipdeha@b.c',
+      Subjcet: 'bahasa inggris',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Ukelulu',
+      Alamat:'Yabetul',
+      Telpon: 081282828282,
+      Email: 'ukelulua@b.c',
+      Subjcet: 'matematika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Widihya',
+      Alamat:'Nihaw',
+      Telpon: 0812030303822,
+      Email: 'widihyaa@b.c',
+      Subjcet: 'fisika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Xiamo',
+      Alamat:'Mao',
+      Telpon: 08128282902761,
+      Email: 'xiamoa@b.c',
+      Subjcet: 'bahasa inggris',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Kungfa',
+      Alamat:'Kimplak',
+      Telpon: 081282826520,
+      Email: 'kungfaa@b.c',
+      Subjcet: 'matematika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },
+    {
+      Nama:'Jakicun',
+      Alamat:'Pisya',
+      Telpon: 081222992299,
+      Email: 'jakicuna@b.c',
+      Subjcet: 'fisika',
+      profesi: 'mahasiswa',
+      jadwal: null,
+      wilayah: null,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    }],{})
+    
   },
 
   down: (queryInterface, Sequelize) => {
-    /*
-      Add reverting commands here.
-      Return a promise to correctly handle asynchronicity.
-
-      Example:
-      */
+    
      return queryInterface.bulkDelete('Teachers', null, {});
   }
 };

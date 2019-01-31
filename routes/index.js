@@ -1,13 +1,27 @@
 const express = require('express')
 const routes = express()
-const register = require('./register')
-const login = require('./login')
-const edit = require('./edit')
+const teacher = require('./teacher')
+const student = require('./student')
 
-routes.use('/register',register)
-routes.use('/login',login)
-routes.use('/edit',edit)
-routes.use('/*',(req,res)=>{
+routes.get('/',(req,res)=>{
+    res.render('./index.ejs')
+})
+routes.get('/login',(req,res)=>{
+    let login = {
+        username:'',
+        password:'',
+        role:['teacher','student']
+    }
+    res.render('./login',{data:login})
+})
+routes.post('/login/:role',(req,res)=>{
+    
+})
+routes.get('/register',(req,res)=>{
+    res.render('./register')
+})
+
+routes.get('/*',(req,res)=>{
 res.render('404')
 })
 

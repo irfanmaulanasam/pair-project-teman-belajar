@@ -9,21 +9,7 @@ module.exports = {
       Email: 'a@blur.c',
       createdAt: new Date(),
       updatedAt: new Date()
-    },{
-    Nama: 'kami',
-    Alamat: 'kebayoran',
-    Telpon: 81234567,
-    Email: 'a@blur.c',
-    createdAt: new Date(),
-    updatedAt: new Date()
-  },{
-    Nama: 'kami',
-    Alamat: 'kebayoran',
-    Telpon: 81234567,
-    Email: 'a@blur.c',
-    createdAt: new Date(),
-    updatedAt: new Date()
-  }
+    }
   ],{})
     /*
       Add altering commands here.

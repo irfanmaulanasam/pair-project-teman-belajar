@@ -3,14 +3,26 @@
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert('Regions',[{
-      Place:'Jakarta Selatan'},{
-    Place:'Jakarta Barat'
+      place:'Jakarta Selatan',
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },{
+    place:'Jakarta Barat',
+    createdAt: new Date(),
+    updatedAt: new Date()
+
   },{
-    Place:'Jakarta Pusat'
+    place:'Jakarta Pusat',
+    createdAt: new Date(),
+    updatedAt: new Date()
   },{
-    Place:'Jakarta Timur'
+    place:'Jakarta Timur',
+    createdAt: new Date(),
+    updatedAt: new Date()
   },{
-    Place:'Jakarta Utara'
+    place:'Jakarta Utara',
+    createdAt: new Date(),
+    updatedAt: new Date()
   }
   ],{})
     /*

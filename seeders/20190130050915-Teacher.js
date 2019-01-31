@@ -3,14 +3,11 @@
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert('Teachers',[{
-      Nama:'aku',
+    Nama:'aku',
     Alamat:'pasarraya',
     Telpon: 812345678,
     Email: 'a@b.c',
     Subjcet: 'matematika',
-    profesi: 'mahasiswa',
-    jadwal: null,
-    wilayah: null,
     createdAt: new Date(),
     updatedAt: new Date()
   }],{})
